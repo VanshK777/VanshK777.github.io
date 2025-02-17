@@ -1,9 +1,9 @@
-title:"Vansh's Blog"
+title: "Vansh's Blog"
 author: "Vansh Kharidia"
-description: "Tech blogs mostly, personal ramblings occassionally." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "Tech blogs mostly, personal ramblings occasionally." # This will show up in places like Twitter, LinkedIn, etc., if you share your site's URL as a post.
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
+# Email / Social media usernames used by the Minima theme:
+# All of these are optional and can be removed or commented out.
 email: "vanshkharidia7@gmail.com"
 twitter_username: "VanshKharidia"
 github_username: "VanshK777"
@@ -18,6 +18,7 @@ linkedin_username: "vansh-kharidia"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
+
 theme: "minima"
 
 rss: rss
@@ -25,7 +26,7 @@ rss: rss
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -37,6 +38,6 @@ titles_from_headings:
 defaults:
   - scope:
       path: ""
-      type: post
+      type: "posts"
     values:
-      tags: Other
+      tags: "Other"
